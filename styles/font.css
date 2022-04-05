@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Monrope';
+  src: url(../fonts/Monrope/Manrope-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Monrope';
+  src: url(../fonts/Monrope/Manrope-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Monrope';
+  src: url(../fonts/Monrope/Manrope-Regular.ttf);
+  font-weight: 400;
+}

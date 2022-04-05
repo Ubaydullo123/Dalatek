@@ -1,0 +1,146 @@
+@media(max-width:1300px) {
+  .intro__item {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+  .intro__right {
+    margin-top: 30px;
+  }
+
+  .product__intro {
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .product__left,
+  .product__right {
+    width: 50%;
+  }
+}
+
+@media(max-width:1200px) {
+  .intro__block {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro__block-items-three {
+    margin-top: 13px;
+  }
+}
+
+@media(max-width:992px) {
+  .items__buttons {
+    flex-direction: column;
+  }
+
+  .items__buttons-list {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .items__buttons-btn {
+    margin: 10px;
+  }
+
+  .footer__items {
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width:768px) {
+  .intro__block-items-one {
+    margin-bottom: 13px;
+  }
+
+  .items__tabLink-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media(max-width:675px) {
+  .header__nav {
+    margin: auto;
+  }
+
+  .intro__block-num {
+    font-size: 40px;
+  }
+
+  .header__nav,
+  .header__intro {
+    flex-direction: column;
+  }
+
+  .header__nav-language {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .items__tabLink-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .items__tabLink-link {
+    margin-bottom: 25px;
+  }
+
+  .footer__items {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+ 
+
+  .footer__left-list {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .product__block {
+    flex-direction: column;
+  }
+
+  .product__img {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .product__item,
+  .product__info {
+    flex-direction: column;
+  }
+
+  .product__time {
+    margin-top: 20px;
+  }
+
+  .intro__block-icon,
+  .intro__block-icon {
+    top: -1000%;
+  }
+
+}
